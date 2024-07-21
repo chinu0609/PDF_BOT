@@ -25,7 +25,7 @@ class PDF_Processing:
 
 
 if __name__=="__main__":
-    obj = PDF_Processing(path="./input_pdf/")
+    obj = PDF_Processing(path="./input_pdf")
     
     while True :
         query = input("Enter the prompt: ")
